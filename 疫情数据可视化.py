@@ -18,7 +18,7 @@ def get_china_data():
 
 @st.cache
 def get_international_data():
-    url = '全球疫情.xlsx'
+    url = '国外疫情.xlsx'
     return get_data(url)
 
 
